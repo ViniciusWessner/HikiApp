@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE2005B2B9743A200AD6651 /* Hiki_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE2005A2B9743A200AD6651 /* Hiki_AppApp.swift */; };
+		CAE2005D2B9743A200AD6651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE2005C2B9743A200AD6651 /* ContentView.swift */; };
+		CAE2005F2B9743A400AD6651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE2005E2B9743A400AD6651 /* Assets.xcassets */; };
+		CAE200622B9743A400AD6651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE200612B9743A400AD6651 /* Preview Assets.xcassets */; };
+		CAF2CB0E2B9A092B00F18104 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB0D2B9A092A00F18104 /* CardView.swift */; };
+		CAF2CB112B9A0AAF00F18104 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB102B9A0AAF00F18104 /* CustomBackgroundView.swift */; };
+		CAF2CB132B9A1B8C00F18104 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB122B9A1B8C00F18104 /* CustomButtonView.swift */; };
+		CAF2CB162B9A2E1D00F18104 /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB152B9A2E1D00F18104 /* GradientButtonStyle.swift */; };
+		CAF2CB182B9A3B1C00F18104 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB172B9A3B1C00F18104 /* CustomCircleView.swift */; };
+		CAF2CB1A2B9A3C8F00F18104 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB192B9A3C8F00F18104 /* MotionAnimationView.swift */; };
+		CAF2CB1D2B9A43FC00F18104 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB1C2B9A43FC00F18104 /* SettingsView.swift */; };
+		CAF2CB1F2B9A57B700F18104 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CB1E2B9A57B700F18104 /* CustomListRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAE200572B9743A200AD6651 /* Hiki App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hiki App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE2005A2B9743A200AD6651 /* Hiki_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiki_AppApp.swift; sourceTree = "<group>"; };
+		CAE2005C2B9743A200AD6651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAE2005E2B9743A400AD6651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE200612B9743A400AD6651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF2CB0D2B9A092A00F18104 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CAF2CB102B9A0AAF00F18104 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		CAF2CB122B9A1B8C00F18104 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		CAF2CB152B9A2E1D00F18104 /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		CAF2CB172B9A3B1C00F18104 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		CAF2CB192B9A3C8F00F18104 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		CAF2CB1C2B9A43FC00F18104 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CAF2CB1E2B9A57B700F18104 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE200542B9743A200AD6651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE2004E2B9743A100AD6651 = {
+			isa = PBXGroup;
+			children = (
+				CAE200592B9743A200AD6651 /* Hiki App */,
+				CAE200582B9743A200AD6651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE200582B9743A200AD6651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE200572B9743A200AD6651 /* Hiki App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE200592B9743A200AD6651 /* Hiki App */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2CB142B9A2E0400F18104 /* Utility */,
+				CAE2005A2B9743A200AD6651 /* Hiki_AppApp.swift */,
+				CAF2CB1B2B9A43E400F18104 /* Screen */,
+				CAE2005E2B9743A400AD6651 /* Assets.xcassets */,
+				CAE200602B9743A400AD6651 /* Preview Content */,
+				CAF2CB0F2B9A0A9400F18104 /* Component */,
+			);
+			path = "Hiki App";
+			sourceTree = "<group>";
+		};
+		CAE200602B9743A400AD6651 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAE200612B9743A400AD6651 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF2CB0F2B9A0A9400F18104 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2CB0D2B9A092A00F18104 /* CardView.swift */,
+				CAF2CB102B9A0AAF00F18104 /* CustomBackgroundView.swift */,
+				CAF2CB122B9A1B8C00F18104 /* CustomButtonView.swift */,
+				CAF2CB172B9A3B1C00F18104 /* CustomCircleView.swift */,
+				CAF2CB192B9A3C8F00F18104 /* MotionAnimationView.swift */,
+				CAF2CB1E2B9A57B700F18104 /* CustomListRowView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CAF2CB142B9A2E0400F18104 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CAF2CB152B9A2E1D00F18104 /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CAF2CB1B2B9A43E400F18104 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CAE2005C2B9743A200AD6651 /* ContentView.swift */,
+				CAF2CB1C2B9A43FC00F18104 /* SettingsView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE200562B9743A200AD6651 /* Hiki App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE200652B9743A400AD6651 /* Build configuration list for PBXNativeTarget "Hiki App" */;
+			buildPhases = (
+				CAE200532B9743A200AD6651 /* Sources */,
+				CAE200542B9743A200AD6651 /* Frameworks */,
+				CAE200552B9743A200AD6651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hiki App";
+			productName = "Hiki App";
+			productReference = CAE200572B9743A200AD6651 /* Hiki App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE2004F2B9743A200AD6651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CAE200562B9743A200AD6651 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CAE200522B9743A200AD6651 /* Build configuration list for PBXProject "Hiki App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE2004E2B9743A100AD6651;
+			productRefGroup = CAE200582B9743A200AD6651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE200562B9743A200AD6651 /* Hiki App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE200552B9743A200AD6651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE200622B9743A400AD6651 /* Preview Assets.xcassets in Resources */,
+				CAE2005F2B9743A400AD6651 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE200532B9743A200AD6651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF2CB132B9A1B8C00F18104 /* CustomButtonView.swift in Sources */,
+				CAE2005D2B9743A200AD6651 /* ContentView.swift in Sources */,
+				CAF2CB1F2B9A57B700F18104 /* CustomListRowView.swift in Sources */,
+				CAF2CB0E2B9A092B00F18104 /* CardView.swift in Sources */,
+				CAF2CB1D2B9A43FC00F18104 /* SettingsView.swift in Sources */,
+				CAF2CB182B9A3B1C00F18104 /* CustomCircleView.swift in Sources */,
+				CAF2CB162B9A2E1D00F18104 /* GradientButtonStyle.swift in Sources */,
+				CAF2CB1A2B9A3C8F00F18104 /* MotionAnimationView.swift in Sources */,
+				CAE2005B2B9743A200AD6651 /* Hiki_AppApp.swift in Sources */,
+				CAF2CB112B9A0AAF00F18104 /* CustomBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CAE200632B9743A400AD6651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAE200642B9743A400AD6651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE200662B9743A400AD6651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiki App/Preview Content\"";
+				DEVELOPMENT_TEAM = DP99XGP8LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viniciuswessner.Hiki-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE200672B9743A400AD6651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hiki App/Preview Content\"";
+				DEVELOPMENT_TEAM = DP99XGP8LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.viniciuswessner.Hiki-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE200522B9743A200AD6651 /* Build configuration list for PBXProject "Hiki App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE200632B9743A400AD6651 /* Debug */,
+				CAE200642B9743A400AD6651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE200652B9743A400AD6651 /* Build configuration list for PBXNativeTarget "Hiki App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE200662B9743A400AD6651 /* Debug */,
+				CAE200672B9743A400AD6651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE2004F2B9743A200AD6651 /* Project object */;
+}
